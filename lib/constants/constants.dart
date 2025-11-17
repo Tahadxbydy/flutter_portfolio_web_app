@@ -1,5 +1,5 @@
 class Intro {
-  static const name = 'Prabesh Pudasaini';
+  static const name = 'Taha Khan';
   static const position = 'Flutter Developer | Mobile App Enthusiast';
   static const description =
       'I specialize in building user-friendly mobile applications with Flutter.';
@@ -18,12 +18,16 @@ class Links {
 
 class About {
   static const aboutMe =
-      '''Hi, I'm Prabesh Pudasaini, a passionate mobile app developer specializing in Flutter. With a strong foundation in cross-platform development and a keen eye for user-centric design, I strive to create seamless and intuitive mobile experiences.
+      '''Hi, I'm Taha Khan—a dedicated mobile app developer with a strong focus on Flutter. I specialize in building modern, user-friendly, and high-performance applications that run seamlessly across both Android and iOS.
 
-I love the challenge of turning ideas into functional, responsive apps that work beautifully on both Android and iOS. From crafting efficient code to debugging and polishing designs, every part of the development process excites me.
+With experience working on more than 10 production-level apps, I’ve tackled a wide range of real-world features including in-app purchases, socket-based real-time communication, deep links and universal links, and Google Maps integration.
 
-In addition to Flutter and Dart, I have experience working with tools like Firebase, REST APIs, and Git, which help me build scalable, high-quality applications.''';
+I enjoy the entire process of turning ideas into polished, responsive mobile experiences. From writing clean, maintainable code to optimizing performance and refining UI/UX details, I take pride in delivering apps that feel smooth and intuitive.
+
+In addition to Flutter and Dart, I work with tools and technologies like Firebase, REST APIs, and Git to build scalable and reliable applications that provide real value.'''
+  ;
 }
+
 
 class Experience {}
 
