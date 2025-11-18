@@ -50,7 +50,7 @@ The Portfolio Website is fully written in Dart using Flutter. It is a single pag
 * Font Awesome Icons
 * Responsive Framework
 * Animated Toggle Switch:
-* And Many More..(Check [`pubspec.yaml`](https://github.com/prabeshpudasaini/Portfolio/blob/main/pubspec.yaml) for more)
+* And Many More..(Check [`pubspec.yaml`](https://github.com/Tahadxbydy/Portfolio/blob/main/pubspec.yaml) for more)
 
 
 ## Installation

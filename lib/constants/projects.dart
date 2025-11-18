@@ -11,7 +11,7 @@ final List<Projects> projects = [
       'Flutter',
       'Material UI',
     ],
-    link: 'https://github.com/prabeshpudasaini/Portfolio',
+    link: 'https://github.com/Tahadxbydy/Portfolio',
   ),
   const Projects(
     image: 'E2EE Chat App Promotion.png',
@@ -24,7 +24,7 @@ final List<Projects> projects = [
       'Firebase',
       'Material UI',
     ],
-    link: 'https://github.com/prabeshpudasaini/e2ee_chat',
+    link: 'https://github.com/Tahadxbydy/e2ee_chat',
   ),
   const Projects(
     image: 'Document Sharing App Promotion.png',
@@ -37,6 +37,6 @@ final List<Projects> projects = [
       'Firebase',
       'Material UI',
     ],
-    link: 'https://github.com/prabeshpudasaini/Document_Sharing_App',
+    link: 'https://github.com/Tahadxbydy/Document_Sharing_App',
   ),
 ];
