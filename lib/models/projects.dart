@@ -7,6 +7,8 @@ class Projects {
   final String description;
   final List<String> builtWith;
   final String link;
+  final String? playStoreLink;
+  final String? appStoreLink;
 
   const Projects({
     required this.image,
@@ -14,5 +16,7 @@ class Projects {
     required this.description,
     required this.builtWith,
     required this.link,
+    this.playStoreLink,
+    this.appStoreLink,
   });
 }

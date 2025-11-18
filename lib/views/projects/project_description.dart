@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:icons_plus/icons_plus.dart';
 import 'package:portfolio/constants/projects.dart';
 
 class ProjectDescription extends StatelessWidget {
@@ -13,16 +14,30 @@ class ProjectDescription extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
+    final deployed = projects[index].playStoreLink != null ||
+        projects[index].appStoreLink != null;
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // Display the card's title
-        Text(
-          projects[index].title,
-          style: textTheme.titleMedium?.copyWith(
-            color: colorScheme.onSurface,
-            fontWeight: FontWeight.bold,
-          ),
+        Row(
+          children: [
+            Text(
+              deployed
+                  ? "${projects[index].title} : Find it on "
+                  : projects[index].title,
+              style: textTheme.titleMedium?.copyWith(
+                color: colorScheme.onSurface,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            projects[index].playStoreLink != null
+                ? Brand(Brands.google_play)
+                : const SizedBox.shrink(),
+            projects[index].appStoreLink != null
+                ? Brand(Brands.app_store)
+                : const SizedBox.shrink(),
+          ],
         ),
         // Add a space between the title and the text
         const SizedBox(height: 10),

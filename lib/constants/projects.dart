@@ -14,18 +14,23 @@ final List<Projects> projects = [
     link: 'https://github.com/Tahadxbydy/Portfolio',
   ),
   const Projects(
-    image: 'E2EE Chat App Promotion.png',
-    title: 'E2EE Chat App',
-    description:
-        'An end-to-end encrypted chat app designed for privacy-first communication. Stay connected with friends, family, and teams while keeping your messages and data safe from prying eyes. The End-to-End Encrypted Messaging Mobile App is built using Flutter and Firebase.',
-    builtWith: [
-      'Dart',
-      'Flutter',
-      'Firebase',
-      'Material UI',
-    ],
-    link: 'https://github.com/Tahadxbydy/e2ee_chat',
-  ),
+      image: 'E2EE Chat App Promotion.png',
+      title: 'Remember My Love',
+      description:
+          '''Remember My Love: Capture, Organize, and Send Your Memories to the Future
+
+In today’s fast-paced world, memories can fade all too quickly. Remember My Love is a secure and intuitive platform designed to help you preserve, organize, and share life’s most meaningful moments. Whether you’re capturing special occasions, storing heartfelt messages, or scheduling letters for future delivery, this app ensures that your memories stand the test of time.''',
+      builtWith: [
+        'Dart',
+        'Flutter',
+        'Firebase',
+        'Material UI',
+      ],
+      link: 'https://github.com/Tahadxbydy/e2ee_chat',
+      playStoreLink:
+          "https://play.google.com/store/apps/details?id=com.remembermylove.tafsol&pcampaignid=web_share",
+      appStoreLink:
+          "https://apps.apple.com/us/app/remember-my-love/id6740341709"),
   const Projects(
     image: 'Document Sharing App Promotion.png',
     title: 'Document Sharing App',
