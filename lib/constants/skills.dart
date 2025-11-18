@@ -15,6 +15,14 @@ final List<Skills> skills = [
     brandIcon: Brands.golang,
   ),
   const Skills(
+    name: 'X Code',
+    brandIcon: Brands.xcode,
+  ),
+  const Skills(
+    name: 'Ios',
+    brandIcon: Brands.ios_logo,
+  ),
+  const Skills(
     name: 'Git',
     brandIcon: Brands.git,
   ),
