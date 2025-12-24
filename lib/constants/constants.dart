@@ -13,7 +13,7 @@ class Links {
   static const phoneNo = '+923336750370';
   static const email = 'tahairtaza121@gmail.com';
   static const resume =
-      'https://prabesh.pages.dev/Prabesh_Pudasaini_Flutter_Developer_Resume.pdf';
+      'https://github.com/Tahadxbydy/flutter_portfolio_web_app/blob/main/assets/pdf/ATS%20CV%20for%20flutter.pdf';
 }
 
 class About {
