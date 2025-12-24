@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:portfolio/constants/projects.dart';
 
+import '../../controller/launch_url.dart';
+
 class ProjectDescription extends StatelessWidget {
   const ProjectDescription({
     super.key,
@@ -32,10 +34,18 @@ class ProjectDescription extends StatelessWidget {
               ),
             ),
             projects[index].playStoreLink != null
-                ? Brand(Brands.google_play)
+                ? GestureDetector(
+                    onTap: () async {
+                      await launchLink(projects[index].playStoreLink!);
+                    },
+                    child: Brand(Brands.google_play))
                 : const SizedBox.shrink(),
             projects[index].appStoreLink != null
-                ? Brand(Brands.app_store)
+                ? GestureDetector(
+                    onTap: () async {
+                      await launchLink(projects[index].appStoreLink!);
+                    },
+                    child: Brand(Brands.app_store))
                 : const SizedBox.shrink(),
           ],
         ),
