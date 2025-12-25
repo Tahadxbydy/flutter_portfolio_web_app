@@ -18,7 +18,7 @@ class ProjectListView extends StatelessWidget {
           return HoverAnimatedCard(
             child: CardView(
               onTap: () {
-                // launchLink(projects[index].link);
+                launchLink(projects[index].link);
               },
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
