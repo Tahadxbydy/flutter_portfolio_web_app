@@ -150,6 +150,204 @@ Klensa — clean spaces, made simple.''',
       'Flutter',
       'Socket IO',
       'Firebase',
+      'Ai',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'dental source.png',
+    title: 'Dental Source: Under Production',
+    description:
+        '''Dental source is a smart and easy-to-use app for your dental problems that connects you with trusted, professional Dentists in just a few taps. Whether you need a quick home refresh, a deep clean, or regular maintenance, Dental source makes booking and selecting the crown specific teeth and modeling those crown according to your teeth tone, fast and stress-free.
+
+''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'rhid.png',
+    title: 'Rhidhoe: Under Production',
+    description:
+        '''Rhidhoe is a smart real estate app that allows users to explore apartments and houses with detailed information and visuals.
+Users can securely sign rental contracts digitally within the app, eliminating paperwork.
+It enables tenants to request repairs and track maintenance status in real time.
+The app also provides a clear overview of all expenses, including rent, utilities, and maintenance costs.
+Rhidhoe simplifies property management by connecting tenants and landlords in one seamless platform.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'gopher.png',
+    title: 'Gopher: Under Production',
+    description:
+        '''Gopher is a real-time delivery and ride-hailing application powered by live WebSocket tracking for accurate location updates.
+It allows users to order grocery deliveries or book rides seamlessly within a single platform.
+The app supports three roles: customers, Gopher riders for transport, and Gopher delivery agents for orders.
+Customers can track their deliveries and rides live, ensuring transparency and reliability.
+Gopher creates a fast, efficient ecosystem connecting users with delivery and transportation services in real time.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Socket IO',
+      'google maps',
+      'Live Chat',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'remember me.png',
+    title: 'Remember Me: Under Production',
+    description:
+        '''Remember Me is a memorial app designed to honor and preserve the life of a deceased loved one.
+Users can create a digital profile showcasing achievements, memories, and important life moments.
+Each registration includes a unique QR-engraved stainless steel plate placed at a meaningful location.
+Visitors can scan the QR code to instantly access the person’s story and legacy.
+The app creates a lasting, interactive way to remember and celebrate loved ones.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'google maps',
+      'Qr Scanner',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'tara.png',
+    title: 'Tara: Under Production',
+    description:
+        '''Tara, short for Tarjuma, is an Islamic app designed to provide essential spiritual tools in one place.
+It features a Qibla locator to help users find the correct direction for prayer anywhere.
+Users can explore the 99 Names of Allah with meanings and reflections.
+The app offers live khutba translation using microphone input and WebSocket-based real-time streaming.
+Tara enhances understanding and connection during sermons through instant, accessible translation.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Socket IO',
+      'microphone audio streaming(PCM 16 bit)',
+      'gyroscope',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'washtub customer.png',
+    title: 'Washtub Customer: Under Production',
+    description:
+        '''Washtub Customer is a flow management app designed to streamline laundry and service requests for users.
+Customers can schedule pickups, track order progress, and manage their laundry flow efficiently.
+The app provides real-time updates from collection to washing and delivery.
+Users can view pricing, order history, and manage multiple requests بسهولة.
+Washtub Customer ensures a smooth, organized experience from pickup to doorstep delivery.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Socket IO',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'washtub factory worker.png',
+    title: 'Washtub Factory Worker: Under Production',
+    description:
+        '''Washtub Factory Worker is an operational app built to manage in-factory laundry processing workflows.
+Workers can receive, process, and update the status of incoming orders in real time.
+The app helps track washing stages, sorting, and completion efficiently.
+It reduces manual errors and improves coordination between departments.
+Washtub Factory Worker ensures fast, accurate handling of all laundry operations.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'washtub rider.png',
+    title: 'Washtub Rider: Under Production',
+    description:
+        '''Washtub Rider is a delivery and logistics app for managing pickups and drop-offs.
+Riders receive assigned orders and navigate efficiently using real-time tracking.
+The app provides route details, customer information, and delivery status updates.
+Riders can mark orders as picked up or delivered instantly within the app.
+Washtub Rider ensures timely and reliable service between customers and the factory.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
+      'Socket IO',
+      'google maps',
+      'Firebase',
+      'Material UI',
+    ],
+    link: 'https://github.com/Tahadxbydy',
+    // playStoreLink:
+    //     "https://play.google.com/store/apps/details?id=com.envite.user&hl=en",
+    // appStoreLink: "https://apps.apple.com/us/app/envite/id6738378654"
+  ),
+  const Projects(
+    image: 'cost works.png',
+    title: 'Cost Works: Under Production',
+    description:
+        '''Cost Works is an expense tracking app designed to help users manage and understand their spending habits.
+It tracks expenses along with their locations to give deeper insights into spending behavior.
+The app provides smart estimates of potential savings based on your financial patterns.
+Users can easily identify where they spend the most through detailed analytics.
+Cost Works helps you make better financial decisions and improve your savings over time.''',
+    builtWith: [
+      'Dart',
+      'Flutter',
+      'Push Notification',
       'Material UI',
     ],
     link: 'https://github.com/Tahadxbydy',
