@@ -14,6 +14,7 @@ class ChipView extends StatelessWidget {
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
     final textTheme = Theme.of(context).textTheme;
+    // final brightness = Theme.of(context).brightness;
     return Wrap(
       spacing: 8.0, // Horizontal spacing between chips
       runSpacing: 4.0, // Vertical spacing between chip rows
@@ -30,8 +31,12 @@ class ChipView extends StatelessWidget {
               label: Text(
                 labelText[chipIndex],
                 style: textTheme.bodySmall?.copyWith(
-                  color: colorScheme.onPrimaryContainer,
-                ),
+                    color:
+                        // brightness == Brightness.light
+                        //     ?
+                        Colors.white
+                    // : colorScheme.onPrimaryContainer,
+                    ),
               ),
             ),
           );
